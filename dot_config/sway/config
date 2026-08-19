@@ -1,8 +1,8 @@
 set $mod Mod4
 # Your preferred terminal emulator
-set $term footclient
+set $term app2unit -- footclient.desktop
 # Your preferred application launcher
-set $menu fuzzel
+set $menu fuzzel --launch-prefix='app2unit --'
 
 ### Output configuration
 #
@@ -181,5 +181,3 @@ bindsym $mod+r mode "resize"
 exec noctalia
 
 include /etc/sway/config.d/*
-
-exec systemctl --user start sway-session.target
