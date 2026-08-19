@@ -1,4 +1,0 @@
-[Unit]
-Description=Sway Wayland session shutdown
-DefaultDependencies=no
-Conflicts=sway-session.target
